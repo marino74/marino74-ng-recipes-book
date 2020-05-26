@@ -7,6 +7,7 @@ import { DataStorageService } from '../shared/data-storage.service';
   templateUrl: './header.component.html'
 })
 export class HeaderComponent {
+  // Comment to test github
   constructor(private dataStorageService: DataStorageService) {}
 
   onSaveData() {
